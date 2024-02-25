@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import HeroSection from "./components/HeroSection";
+import InfoModal from "./components/InfoModal";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
+  const [open,setOpen]=useState(false);
+  const handleClose=()=>{
+    setOpen(false);
+  }
+  useEffect(()=>{
+    if(!localStorage.getItem('showed'))
+    {
+      setTimeout(()=>{setOpen(true);localStorage.setItem('showed',true)},2000)
+    }
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Navbar/>
+     <HeroSection/>
+     <About/>
+     <Experience/>
+     <Projects/>
+     <Contact/>
+     <InfoModal handleClose={handleClose} open={open}/>
+    </>
   );
 }
 
