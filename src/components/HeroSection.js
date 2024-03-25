@@ -1,6 +1,6 @@
 import React from 'react'
 import srImage from '../Images/SR.jpg'
-import resume from '../resume/shivuroopesh resume.pdf'
+import resume from '../resume/shivu resume.pdf'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { PiFileTextFill } from "react-icons/pi";

@@ -10,7 +10,7 @@ const ExperienceAnimi = () => {
   const Yitems = {
     hidden: { opacity: 0, y: "20px" },
     show: { opacity: 1, y: 0 },
-    transition: { duration: 0.5 ,delay:0.5 },
+    transition: { duration: 0.5  },
   };
   const Xleftitems = {
     hidden: { opacity: 0, x: "-20px" },
@@ -55,7 +55,7 @@ const ExperienceAnimi = () => {
             </motion.div>
             <motion.div variants={Yitems} className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Typescript"} type={"Basics"} />
-              <ExpInfoBox title={"Material UI"} type={"Basics"} />
+              <ExpInfoBox title={"Framer Motion"} type={"Intermediate"} />
             </motion.div>
             <motion.div variants={Yitems} className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Tailwind CSS"} type={"Basics"} />

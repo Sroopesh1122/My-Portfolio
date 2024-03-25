@@ -30,7 +30,7 @@ const About = () => {
         </motion.h6>
         <motion.h1
           initial={{ y: "-10px", opacity: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5,  }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           className="text-center"
@@ -40,7 +40,7 @@ const About = () => {
       </div>
       <div className="d-flex justify-content-around align-items-center gap-20 about-container">
         <motion.div
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1, }}
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
@@ -51,7 +51,7 @@ const About = () => {
         <div className="about-info">
           <div className="d-flex justify-content-around about-boxes px-3">
             <motion.div
-              transition={{ duration: 0.5, delay: 2 }}
+              transition={{ duration: 0.5, }}
               initial={{ x: "-20px", opacity: 0 }}
               whileInView={{ x: "0px", opacity: 1 }}
               viewport={{ once: true }}
@@ -63,7 +63,7 @@ const About = () => {
               <h3>Mern Developer</h3>
             </motion.div>
             <motion.div
-              transition={{ duration: 0.5, delay: 2.5 }}
+              transition={{ duration: 0.5,}}
               initial={{ x: "20px", opacity: 0 }}
               whileInView={{ x: "0px", opacity: 1 }}
               viewport={{ once: true }}
@@ -76,7 +76,7 @@ const About = () => {
             </motion.div>
           </div>
           <motion.div
-            transition={{ duration: 0.5, delay: 3 }}
+            transition={{ duration: 0.5, }}
             initial={{ y: "20px", opacity: 0 }}
             whileInView={{ y: "0px", opacity: 1 }}
             viewport={{ once: true }}
