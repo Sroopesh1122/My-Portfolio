@@ -81,10 +81,10 @@ const Experience = () => {
               initial={{ y: "10px", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
+              className="d-flex justify-content-between px-2 py-3 experience-content"
             >
               <ExpInfoBox title={"Typescript"} type={"Basics"} />
-              <ExpInfoBox title={"Material UI"} type={"Basics"} />
+              <ExpInfoBox title={"Framer motion"} type={"Basics"} />
             </motion.div>
             <motion.div
               transition={{ duration: 0.5, delay: 3 }}
@@ -98,7 +98,7 @@ const Experience = () => {
           </div>
         </motion.div>
         <motion.div
-          transition={{ duration: 0.5, delay: 3.5 }}
+          transition={{ duration: 0.5, delay: 0 }}
           initial={{ x: "20px", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
@@ -107,7 +107,7 @@ const Experience = () => {
           <h2 className="text-center">Backend Development </h2>
           <div className="experience-info">
             <motion.div
-              transition={{ duration: 0.5, delay: 4 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               initial={{ y: "10px", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
@@ -117,7 +117,7 @@ const Experience = () => {
               <ExpInfoBox title={"Express JS"} type={"Intermediate"} />
             </motion.div>
             <motion.div
-              transition={{ duration: 0.5, delay: 4.5 }}
+              transition={{ duration: 0.5, delay: 1 }}
               initial={{ y: "10px", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
@@ -127,7 +127,7 @@ const Experience = () => {
               <ExpInfoBox title={"Mysql"} type={"Intermediate"} />
             </motion.div>
             <motion.div
-              transition={{ duration: 0.5, delay: 5 }}
+              transition={{ duration: 0.5, delay: 1.5 }}
               initial={{ y: "10px", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
