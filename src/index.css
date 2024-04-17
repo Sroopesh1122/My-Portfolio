@@ -290,7 +290,9 @@ ul {
 }
 
 @media screen and (max-width: 1000px) {
-  
+  .projects-card{
+    width: 400px;
+  }
   .menu-sm {
     display: flex !important;
     padding: 10px 40px !important;
@@ -346,6 +348,9 @@ ul {
   }
 }
 @media screen and (max-width: 800px) {
+  .projects-card{
+    width: 350px;
+  }
   .about-boxes {
     flex-direction: column;
     gap: 30px;
@@ -372,6 +377,13 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
+  .projects-card{
+    width: 300px;
+  }
+  .projects-img{
+    width: 200px;
+    height: 200px;
+  }
   .hero-buttons {
     flex-direction: column;
   }
