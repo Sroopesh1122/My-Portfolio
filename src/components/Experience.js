@@ -45,7 +45,7 @@ const Experience = () => {
           className="experience-box"
         >
           <h2 className="text-center">Frontend Development </h2>
-          <div className="experience-info d-flex">
+          <div className="experience-info d-flex flex-column">
             <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"HTML"} type={"Intermediate"} />
               <ExpInfoBox title={"CSS"} type={"Intermediate"} />
