@@ -41,7 +41,7 @@ const About = () => {
       <div className="d-flex justify-content-around align-items-center gap-20 about-container">
         <motion.div
           transition={{ duration: 1, }}
-          initial={{ scale: 0, opacity: 0 }}
+          initial={{ scale: 0.7, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={{ once: true }}
           className="about-img d-flex"

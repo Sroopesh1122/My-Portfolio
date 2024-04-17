@@ -38,67 +38,37 @@ const Experience = () => {
       </div>
       <div className="experience-details mt-5">
         <motion.div
-          transition={{ duration: 0.5, delay: 1 }}
+          transition={{ duration: 0.5}}
           initial={{ x: "-20px", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           className="experience-box"
         >
           <h2 className="text-center">Frontend Development </h2>
-          <div className="experience-info">
-            <motion.div
-              transition={{ duration: 0.5, delay: 1 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+          <div className="experience-info d-flex">
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"HTML"} type={"Intermediate"} />
               <ExpInfoBox title={"CSS"} type={"Intermediate"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 1.5 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Javascript"} type={"Intermediate"} />
               <ExpInfoBox title={"React JS"} type={"Intermediate"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 2 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Bootstarp"} type={"Intermediate"} />
               <ExpInfoBox title={"Material UI"} type={"Basics"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 2.5 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-2 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Typescript"} type={"Basics"} />
               <ExpInfoBox title={"Framer motion"} type={"Basics"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 3 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Tailwind CSS"} type={"Basics"} />
-            </motion.div>
+            </div>
           </div>
         </motion.div>
         <motion.div
-          transition={{ duration: 0.5, delay: 0 }}
+          transition={{ duration: 0.5}}
           initial={{ x: "20px", opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
@@ -106,36 +76,18 @@ const Experience = () => {
         >
           <h2 className="text-center">Backend Development </h2>
           <div className="experience-info">
-            <motion.div
-              transition={{ duration: 0.5, delay: 0.5 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Node JS"} type={"Intermediate"} />
               <ExpInfoBox title={"Express JS"} type={"Intermediate"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 1 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Mongo DB"} type={"Intermediate"} />
               <ExpInfoBox title={"Mysql"} type={"Intermediate"} />
-            </motion.div>
-            <motion.div
-              transition={{ duration: 0.5, delay: 1.5 }}
-              initial={{ y: "10px", opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="d-flex justify-content-between px-4 py-3 experience-content"
-            >
+            </div>
+            <div className="d-flex justify-content-between px-4 py-3 experience-content">
               {/* <ExpInfoBox title={"JAVA"} type={"Basics"}/>  */}
               <ExpInfoBox title={"Git"} type={"Intermediate"} />
-            </motion.div>
+            </div>
           </div>
         </motion.div>
       </div>
