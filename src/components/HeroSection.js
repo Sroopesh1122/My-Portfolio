@@ -1,6 +1,5 @@
 import React from 'react'
 import srImage from '../Images/SR.jpg'
-import resume from '../resume/shivu resume.pdf'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { PiFileTextFill } from "react-icons/pi";
@@ -20,7 +19,7 @@ const HeroSection = () => {
             <motion.h6  transition={{duration:0.5,delay:1}} initial={{x:'20px',opacity:0}} animate={{x:0,opacity:1}} className='text-center'>Hello, I'm</motion.h6>
             <motion.h1  transition={{duration:0.5,delay:1.5}} initial={{x:'-20px',opacity:0}} animate={{x:0,opacity:1}} className='text-center'>Mern Developer</motion.h1>
             <motion.div transition={{duration:0.5,delay:2}} initial={{x:'20px',opacity:0}} animate={{x:0,opacity:1}}  className='hero-buttons d-flex justify-content-between'>
-                <a href={resume} download={true} className='button'><PiFileTextFill className='btn-icon'/>Download Resume</a>
+                <a href="https://drive.google.com/file/d/18D5qRO5-WArRx8VxtycxBAX7Ksbkkx3M/view?usp=sharing" download={true} className='button'><PiFileTextFill className='btn-icon'/>Download Resume</a>
                 <a href='#contact' className='button active'><FaPhone className='btn-icon'/>Contact Info</a>
             </motion.div>
             <motion.div transition={{duration:0.5,delay:2.5}} initial={{x:'-20px',opacity:0}} animate={{x:0,opacity:1}}  className='mt-3 d-flex justify-content-center gap-20'>
