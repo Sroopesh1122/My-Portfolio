@@ -7,7 +7,7 @@ const ExpInfoBox = ({title,type}) => {
         <HiBadgeCheck className="info-icon" />
       </div>
       <div className="info">
-        <h1 className="mb-0">{title}</h1>
+        <h1 className="mb-0 no-wrap">{title}</h1>
         <h6>{type}</h6>
       </div>
     </div>

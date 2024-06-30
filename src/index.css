@@ -264,6 +264,15 @@ ul {
 .rotate-180{
   transform: rotate(180deg);
 }
+.no-wrap {
+  white-space: nowrap;
+}
+.items-center{
+  align-items: center;
+}
+.gap-3{
+  gap: 30px;
+}
 
 @media screen and (max-width: 1600px) {
   .box {

@@ -46,23 +46,23 @@ const Experience = () => {
         >
           <h2 className="text-center">Frontend Development </h2>
           <div className="experience-info d-flex flex-column">
-            <div className="d-flex justify-content-between px-4 py-3 experience-content">
+            <div className="d-flex justify-content-start items-center gap-3 px-4 py-3 experience-content">
               <ExpInfoBox title={"HTML"} type={"Intermediate"} />
               <ExpInfoBox title={"CSS"} type={"Intermediate"} />
             </div>
-            <div className="d-flex justify-content-between px-4 py-3 experience-content">
+            <div className="d-flex justify-content-start items-center gap-3 px-4 py-3 experience-content">
               <ExpInfoBox title={"Javascript"} type={"Intermediate"} />
               <ExpInfoBox title={"React JS"} type={"Intermediate"} />
             </div>
-            <div className="d-flex justify-content-between px-4 py-3 experience-content">
+            <div className="d-flex justify-content-start items-center gap-3 px-4 py-3 experience-content">
               <ExpInfoBox title={"Bootstarp"} type={"Intermediate"} />
               <ExpInfoBox title={"Material UI"} type={"Basics"} />
             </div>
-            <div className="d-flex justify-content-between px-4 py-3 experience-content">
+            <div className="d-flex justify-content-start items-center gap-3 px-4 py-3 experience-content">
               <ExpInfoBox title={"Typescript"} type={"Basics"} />
               <ExpInfoBox title={"Framer motion"} type={"Basics"} />
             </div>
-            <div className="d-flex justify-content-between px-4 py-3 experience-content">
+            <div className="d-flex justify-content-start items-center gap-3 px-4 py-3 experience-content">
               <ExpInfoBox title={"Tailwind CSS"} type={"Basics"} />
             </div>
           </div>
@@ -74,7 +74,7 @@ const Experience = () => {
           viewport={{ once: true }}
           className="experience-box"
         >
-          <h2 className="text-center">Backend Development </h2>
+          <h2 className="text-center no-wrap">Backend Development </h2>
           <div className="experience-info">
             <div className="d-flex justify-content-between px-4 py-3 experience-content">
               <ExpInfoBox title={"Node JS"} type={"Intermediate"} />
