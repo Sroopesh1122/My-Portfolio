@@ -85,8 +85,7 @@ const About = () => {
             <strong>Hello! My name is Shivuroopesh</strong>. I'm a self-taught programmer with a
             passion for learning and exploring new technologies. My expertise
             spans from front-end development to back-end programming. I am
-            currently expanding my skillset to include <strong>Next.JS 14 for high-scale
-            application development</strong>  . As a dedicated and driven individual , I am
+            currently expanding my skillset to include <strong>JAVA Full Stack </strong>  . As a dedicated and driven individual , I am
             constantly seeking out opportunities to grow and improve as a
             programmer
           </motion.div>
